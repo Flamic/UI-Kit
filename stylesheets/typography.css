@@ -1,7 +1,4 @@
-:root {
-  --head-background-color: #E6EEFF;
-  --primary-text-color: #00194C;
-}
+@import url('vars.css');
 
 @font-face {
   font-family: 'SF Pro Text';
