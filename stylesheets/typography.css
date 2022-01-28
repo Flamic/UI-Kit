@@ -1,0 +1,151 @@
+:root {
+  --head-background-color: #E6EEFF;
+  --primary-text-color: #00194C;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  font-weight: 600;
+  src: url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscotext-semibold-webfont.woff');
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  font-weight: 600;
+  src: url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff');
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', 'sans-serif';
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+}
+
+.table {
+  width: 100%;
+  min-width: 720px;
+  overflow-x: auto;
+  border-spacing: 0;
+  font-family: 'Inter', 'sans-serif';
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.table thead {
+  background-color: var(--head-background-color);
+  color: var(--primary-text-color);
+  text-align: left;
+}
+
+.table tbody {
+  color: var(--primary-text-color);
+}
+
+.table th {
+  padding: 22px 0;
+  font-family: 'SF Pro Text', 'sans-serif';
+}
+
+.table td {
+  padding: 48px 0;
+}
+
+.table td:first-child,
+.table th:first-child {
+  padding-left: 7.3%;
+}
+
+.table td:last-child,
+.table th:last-child {
+  padding-right: 7.3%;
+}
+
+.style-name {
+  width: 22%;
+}
+
+.font-size {
+  width: 7.3%;
+}
+
+.line-height {
+  width: 14.6%;
+}
+
+.sample {
+  width: 41.5%;
+}
+
+h1, .h1 {
+  font-family: 'Inter', 'sans-serif';
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+}
+
+h2, .h2 {
+  font-family: 'SF Pro Display', 'sans-serif';
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+h3, .h3 {
+  font-family: 'SF Pro Display', 'sans-serif';
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+h4, .h4 {
+  font-family: 'SF Pro Display', 'sans-serif';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+h5, .h5 {
+  font-family: 'SF Pro Text', 'sans-serif';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+h6, .h6 {
+  font-family: 'SF Pro Text', 'sans-serif';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.p1 {
+  font-family: 'Inter', 'sans-serif';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.p2 {
+  font-family: 'Inter', 'sans-serif';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.p3, p {
+  font-family: 'Inter', 'sans-serif';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.p4 {
+  font-family: 'Inter', 'sans-serif';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
