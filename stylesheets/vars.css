@@ -60,6 +60,13 @@
   --border-color: var(--primary-100);
   --gray-block-color: #F2F2F2;
   --border-shadow-color: #EAEAEA;
-  --shadow-1-color: rgba(25, 1, 52, 0.12);
-  --shadow-2-color: rgba(1, 21, 52, 0.16);
+  --shadow-1-color: #1901341f;
+  --shadow-2-color: #01153429;
+  
+  --bottom-border-shadow: inset 0px -1px 0px var(--border-shadow-color);
+  --top-border-shadow: inset 0px 1px 0px var(--border-shadow-color);
+  --bottom-shadow-1: 0px 2px 10px var(--shadow-1-color);
+  --top-shadow-1: 0px -2px 10px var(--shadow-1-color);
+  --bottom-shadow-2: 0px 4px 10px var(--shadow-2-color);
+  --top-shadow-2: 0px -4px 10px var(--shadow-2-color);
 }
