@@ -8,4 +8,8 @@
   --head-background-color: #E6EEFF;
   --primary-text-color: #00194C;
   --border-color: #E6EEFF;
+  --gray-block-color: #F2F2F2;
+  --border-shadow-color: #EAEAEA;
+  --shadow-1-color: rgba(25, 1, 52, 0.12);
+  --shadow-2-color: rgba(1, 21, 52, 0.16);
 }
