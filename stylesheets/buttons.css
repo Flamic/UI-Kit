@@ -44,7 +44,7 @@ body {
 }
 
 .table tr:nth-child(4n) td {
-  border-bottom: 3px solid var(--border-color);
+  border-bottom-width: 3px;
 }
 
 .table td:first-child,
