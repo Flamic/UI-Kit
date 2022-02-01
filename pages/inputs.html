@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../stylesheets/icons.css">
+  <link rel="stylesheet" href="../stylesheets/inputs.css">
+  <title>Inputs</title>
+</head>
+<body>
+  <table class="table">
+    <thead>
+      <th class="style-name">Style name</th>
+      <th class="state">State</th>
+      <th class="sample">Sample</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Text inputs</td>
+        <td>Normal</td>
+        <td><input type="text" class="text-input" placeholder="Normal"></td>
+      </tr>
+      <tr>
+        <td>Text inputs</td>
+        <td>Hover</td>
+        <td><input type="text" class="text-input hover" placeholder="Hover"></td>
+      </tr>
+      <tr>
+        <td>Text inputs</td>
+        <td>Focus</td>
+        <td><input type="text" class="text-input focus" placeholder="Focused"></td>
+      </tr>
+      <tr>
+        <td>Text inputs</td>
+        <td>Pressed</td>
+        <td><input type="text" class="text-input active" value="metehankaya25@gmail.com"></td>
+      </tr>
+      <tr>
+        <td>Text inputs</td>
+        <td>Error</td>
+        <td>
+          <input type="text" id="error-input" class="text-input error" value="Error">
+          <label for="error-input" class="label error-label">With explanation</label>
+        </td>
+      </tr>
+      <tr>
+        <td>Text inputs</td>
+        <td>Success</td>
+        <td><input type="text" class="text-input success" value="Success"></td>
+      </tr>
+      <tr>
+        <td>Text inputs</td>
+        <td>Info</td>
+        <td>
+          <input type="text" id="info-input" class="text-input info" value="Alert">
+          <label for="info-input" class="label info-label">With explanation</label>
+        </td>
+      </tr>
+      <tr>
+        <td>Text inputs</td>
+        <td>Disabled</td>
+        <td><input disabled type="text" class="text-input disabled" value="Disable"></td>
+      </tr>
+
+      <tr>
+        <td>Text Inputs / Left icon</td>
+        <td>Normal</td>
+        <td>
+          <div class="input-wrapper">
+            <input type="text" id="normal-input-left-icon" class="text-input left-icon" placeholder="Normal">
+            <label for="normal-input-left-icon" class="label icon left"><i class="icon-user"></i></label>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Text Inputs / Left icon</td>
+        <td>Hover</td>
+        <td>
+          <div class="input-wrapper">
+            <input type="text" id="hover-input-left-icon" class="text-input left-icon hover" placeholder="Hover">
+            <label for="hover-input-left-icon" class="label icon left"><i class="icon-user"></i></label>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Text Inputs / Left icon</td>
+        <td>Focus</td>
+        <td>
+          <div class="input-wrapper">
+            <input type="text" id="focus-input-left-icon" class="text-input left-icon focus" placeholder="Focused">
+            <label for="focus-input-left-icon" class="label icon left"><i class="icon-user"></i></label>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Text Inputs / Left icon</td>
+        <td>Pressed</td>
+        <td>
+          <div class="input-wrapper">
+            <input type="text" id="active-input-left-icon" class="text-input left-icon active" value="metehankaya25@gmail.com">
+            <label for="active-input-left-icon" class="label icon left"><i class="icon-user"></i></label>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Text Inputs / Left icon</td>
+        <td>Error</td>
+        <td>
+          <div class="input-wrapper">
+            <input type="text" id="error-input-left-icon" class="text-input left-icon error" value="Error">
+            <label for="error-input-left-icon" class="label icon left"><i class="icon-user"></i></label>
+          </div>
+          <label for="error-input-left-icon" class="label error-label">With explanation</label>
+        </td>
+      </tr>
+      <tr>
+        <td>Text Inputs / Left icon</td>
+        <td>Success</td>
+        <td>
+          <div class="input-wrapper">
+            <input type="text" id="success-input-left-icon" class="text-input left-icon success" value="Success">
+            <label for="success-input-left-icon" class="label icon left"><i class="icon-user"></i></label>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Text Inputs / Left icon</td>
+        <td>Info</td>
+        <td>
+          <div class="input-wrapper">
+            <input type="text" id="info-input-left-icon" class="text-input left-icon info" value="Alert">
+            <label for="info-input-left-icon" class="label icon left"><i class="icon-user"></i></label>
+          </div>
+          <label for="info-input-left-icon" class="label info-label">With explanation</label>
+        </td>
+      </tr>
+      <tr>
+        <td>Text Inputs / Left icon</td>
+        <td>Disabled</td>
+        <td>
+          <div class="input-wrapper">
+            <input disabled type="text" id="disabled-input-left-icon" class="text-input left-icon disabled" value="Disable">
+            <label for="disabled-input-left-icon" class="label icon left"><i class="icon-user"></i></label>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Text Inputs / Right icon</td>
+        <td>Normal</td>
+        <td>
+          <div class="input-wrapper">
+            <input type="text" id="normal-input-right-icon" class="text-input right-icon" placeholder="Normal">
+            <label for="normal-input-right-icon" class="label icon right"><i class="icon-hide"></i></label>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Text Inputs / Right icon</td>
+        <td>Hover</td>
+        <td>
+          <div class="input-wrapper">
+            <input type="text" id="hover-input-right-icon" class="text-input right-icon hover" placeholder="Hover">
+            <label for="hover-input-right-icon" class="label icon right"><i class="icon-hide"></i></label>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Text Inputs / Right icon</td>
+        <td>Focus</td>
+        <td>
+          <div class="input-wrapper">
+            <input type="text" id="focus-input-right-icon" class="text-input right-icon focus" placeholder="Focused">
+            <label for="focus-input-right-icon" class="label icon right"><i class="icon-hide"></i></label>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Text Inputs / Right icon</td>
+        <td>Pressed</td>
+        <td>
+          <div class="input-wrapper">
+            <input type="text" id="active-input-right-icon" class="text-input right-icon active" value="metehankaya25@gmail.com">
+            <label for="active-input-right-icon" class="label icon right"><i class="icon-hide"></i></label>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Text Inputs / Right icon</td>
+        <td>Error</td>
+        <td>
+          <div class="input-wrapper">
+            <input type="text" id="error-input-right-icon" class="text-input right-icon error" value="Error">
+            <label for="error-input-right-icon" class="label icon right"><i class="icon-hide"></i></label>
+          </div>
+          <label for="error-input-right-icon" class="label error-label">With explanation</label>
+        </td>
+      </tr>
+      <tr>
+        <td>Text Inputs / Right icon</td>
+        <td>Success</td>
+        <td>
+          <div class="input-wrapper">
+            <input type="text" id="success-input-right-icon" class="text-input right-icon success" value="Success">
+            <label for="success-input-right-icon" class="label icon right"><i class="icon-hide"></i></label>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Text Inputs / Right icon</td>
+        <td>Info</td>
+        <td>
+          <div class="input-wrapper">
+            <input type="text" id="info-input-right-icon" class="text-input right-icon info" value="Alert">
+            <label for="info-input-right-icon" class="label icon right"><i class="icon-hide"></i></label>
+          </div>
+          <label for="info-input-right-icon" class="label info-label">With explanation</label>
+        </td>
+      </tr>
+      <tr>
+        <td>Text Inputs / Right icon</td>
+        <td>Disabled</td>
+        <td>
+          <div class="input-wrapper">
+            <input disabled type="text" id="disabled-input-right-icon" class="text-input right-icon disabled" value="Disable">
+            <label for="disabled-input-right-icon" class="label icon right"><i class="icon-hide"></i></label>
+          </div>
+        </td>
+      </tr>
+
+
+
+
+
+    </tbody>
+  </table>
+</body>
+</html>

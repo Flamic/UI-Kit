@@ -1,0 +1,196 @@
+@import url('vars.css');
+
+@font-face {
+  font-family: 'SF Pro Text';
+  font-weight: 600;
+  src: url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscotext-semibold-webfont.woff');
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', 'sans-serif';
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+}
+
+.table {
+  width: 100%;
+  min-width: 600px;
+  max-width: 1000px;
+  margin: auto;
+  overflow-x: auto;
+  border-spacing: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+}
+
+.table thead {
+  background-color: var(--head-background-color);
+  text-align: left;
+}
+
+.table th {
+  padding: 22px 0;
+  font-family: 'SF Pro Text', 'sans-serif';
+}
+
+.table td {
+  padding: 32px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.table tr:nth-child(8n) td {
+  border-bottom-width: 3px;
+}
+
+.table td:first-child,
+.table th:first-child {
+  padding-left: 5%;
+}
+
+.table td:last-child,
+.table th:last-child {
+  padding-right: 5%;
+}
+
+.style-name {
+  width: 40%;
+}
+
+.state {
+  width: 20%;
+}
+
+.sample {
+  width: 30%;
+}
+
+.text-input {
+  width: 100%;
+  font-size: 14px;
+  color: var(--primary-text-color);
+  background-color: white;
+  padding: 14px 16px;
+  border: 1px solid var(--input-color);
+  border-radius: 4px;
+  outline: none;
+  transition: all 0.12s linear;
+}
+
+.text-input::placeholder {
+  color: var(--input-color);
+}
+
+.text-input.disabled,
+.text-input:disabled {
+  cursor: default;
+}
+
+.text-input.hover:not(.disabled),
+.text-input:hover:not(.disabled),
+.text-input.focus:not(.disabled),
+.text-input:focus:not(.disabled),
+.text-input.active:not(.disabled),
+.text-input:active:not(.disabled) {
+  border-color: var(--primary-500);
+}
+
+.text-input.active:not(.disabled) + .label,
+.text-input:active:not(.disabled) + .label {
+  color: var(--primary-500);
+}
+
+.text-input.error {
+  color: rgb(var(--error-color));
+  border-color: rgb(var(--error-color));
+}
+
+.text-input.error + .label {
+  color: rgb(var(--error-color));
+}
+
+.text-input.success {
+  color: rgb(var(--success-color));
+  border-color: rgb(var(--success-color));
+}
+
+.text-input.success + .label {
+  color: rgb(var(--success-color));
+}
+
+.text-input.info {
+  color: rgb(var(--info-color));
+  border-color: rgb(var(--info-color));
+}
+
+.text-input.info + .label {
+  color: rgb(var(--info-color));
+}
+
+.text-input.disabled,
+.text-input:disabled {
+  color: var(--input-color);
+  background-color: var(--disabled-color);
+  border: none;
+}
+
+.text-input.left-icon {
+  padding-left: 52px;
+}
+
+.text-input.right-icon {
+  padding-right: 52px;
+}
+
+.label {
+  display: block;
+  font-size: 14px;
+  color: var(--input-color);
+  margin-top: 8px;
+}
+
+.label.hover-label,
+.label.focus-label,
+.label.active-label {
+  color: var(--primary-500);
+}
+
+.label.error-label {
+  color: rgb(var(--error-color));
+}
+
+.label.success-label {
+  color: rgb(var(--success-color));
+}
+
+.label.info-label {
+  color: rgb(var(--info-color));
+}
+
+.label.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+}
+
+.icon.left { left: 16px; }
+.icon.right { right: 16px; }
+
+.input-wrapper {
+  position: relative;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-size: 18px;
+}
