@@ -99,8 +99,12 @@ body {
   border-color: var(--primary-500);
 }
 
-.text-input.active:not(.disabled) + .label,
-.text-input:active:not(.disabled) + .label {
+.input-wrapper > .text-input.hover:not(.disabled) + .label,
+.input-wrapper > .text-input:hover:not(.disabled) + .label,
+.input-wrapper > .text-input.focus:not(.disabled) + .label,
+.input-wrapper > .text-input:focus:not(.disabled) + .label,
+.input-wrapper > .text-input.active:not(.disabled) + .label,
+.input-wrapper > .text-input:active:not(.disabled) + .label {
   color: var(--primary-500);
 }
 
@@ -182,6 +186,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
   margin: 0;
+  transition: all 0.12s linear;
 }
 
 .icon.left { left: 16px; }
