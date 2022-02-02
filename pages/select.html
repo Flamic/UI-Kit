@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../stylesheets/icons.css" />
+    <link rel="stylesheet" href="../stylesheets/select.css" />
+    <title>Dropdown</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="select-block">
+        <div class="select-wrapper">
+          <div class="select" tabindex="0">Select</div>
+          <div class="select-icon"><i class="icon-expand-arrow"></i></div>
+        </div>
+      </div>
+      <div class="select-block">
+        <div class="select-wrapper">
+          <div class="select focus" tabindex="0">Select</div>
+          <div class="select-icon"><i class="icon-expand-arrow"></i></div>
+        </div>
+        <div class="select-list">
+          <div class="option">First</div>
+          <div class="option">Second</div>
+          <div class="option">Third</div>
+        </div>
+      </div>
+      <div class="select-block">
+        <div class="select-wrapper">
+          <div class="select placeholder" tabindex="0">dd/mm/yyyy</div>
+          <div class="select-icon"><i class="icon-calendar"></i></div>
+        </div>
+      </div>
+      <div class="select-block">
+        <div class="select-wrapper">
+          <div class="select focus placeholder" tabindex="0">dd/mm/yyyy</div>
+          <div class="select-icon"><i class="icon-calendar"></i></div>
+        </div>
+        <div class="calendar">
+          <div class="month-block">
+            <i class="icon-left-chevron"></i>
+            <div class="month-text">September 2020</div>
+            <i class="icon-right-chevron"></i>
+          </div>
+          <div class="calendar-body">
+            <table>
+              <thead>
+                <th>SUN</th>
+                <th>MON</th>
+                <th>TUE</th>
+                <th>WED</th>
+                <th>THU</th>
+                <th>FRI</th>
+                <th>SAT</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="inactive">28</td>
+                  <td class="inactive">29</td>
+                  <td class="inactive">30</td>
+                  <td class="inactive">31</td>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>5</td>
+                  <td>6</td>
+                  <td>7</td>
+                  <td>8</td>
+                  <td>9</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <td>11</td>
+                  <td>12</td>
+                  <td class="first-selected">13</td>
+                  <td class="selected">14</td>
+                  <td class="selected">15</td>
+                  <td class="selected">16</td>
+                  <td class="selected">17</td>
+                </tr>
+                <tr>
+                  <td class="selected">18</td>
+                  <td class="selected">19</td>
+                  <td class="selected">20</td>
+                  <td class="selected">21</td>
+                  <td class="selected">22</td>
+                  <td class="last-selected">23</td>
+                  <td>24</td>
+                </tr>
+                <tr>
+                  <td>25</td>
+                  <td>26</td>
+                  <td>27</td>
+                  <td>28</td>
+                  <td>29</td>
+                  <td>30</td>
+                  <td>31</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
